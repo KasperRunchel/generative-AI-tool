@@ -1,0 +1,68 @@
+body {
+    background-color: #f4f4f4;
+}
+
+.section1{
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+}
+
+/* Jeg prøver at få denne til at være i midten, men kan ikke lykkes med det.... */
+.hidden {
+    display: none;
+    padding: 10px;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+span {
+    display: block;
+}
+
+img {
+    width: 100%;
+}
+
+button{
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    margin: 0 5px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #222242;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    position: relative;
+    user-select: none;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+button:active {
+    box-shadow: 0px 0px 0px 0px;
+    top: 5px;
+    left: 5px;
+}
+
+.suggestions{
+    padding: 10px;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
